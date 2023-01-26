@@ -19,6 +19,4 @@ Class society{
     public function define_public_hooks(){
         $plugin_public = new society_public();
     }
-
-
 }

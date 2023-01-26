@@ -21,11 +21,11 @@ Class Add_Friends_Page
         function add_friends_page_render(){
             require_once PLUGIN_DIR . 'admin/templates/add-friends-template.php';
         }
-
     }
 
-    public function friendship_collect(){
+    public function get_all_people(){
         global $wpdb;
+        $wpdb->get_result("SELECT * FROM plugins.society_users;");
     }
 }
 

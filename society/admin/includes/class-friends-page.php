@@ -21,6 +21,7 @@ Class Friends_Page
         function friends_page_render(){
             require_once PLUGIN_DIR . 'admin/templates/friends-page-template.php';
         }
+
     }
 }
 

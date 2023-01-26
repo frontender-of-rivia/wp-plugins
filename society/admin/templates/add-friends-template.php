@@ -1,10 +1,8 @@
 <?php
 
 
+
 ?>
-
-
-
 
 <style>
     li{
@@ -36,3 +34,13 @@
         <input type="submit" value="Отправить заявку">
     </form>
 </section>
+<section>
+    <h1>Все люди</h1>
+</section>
+<?php
+
+    $my_object = get_query_var('user_login');
+
+    echo $my_object;
+
+?>
